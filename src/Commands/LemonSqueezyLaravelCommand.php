@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace BillerStack\LemonSqueezyLaravel\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LemonSqueezyLaravelCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'lemon-squeezy-laravel';
 
     public $description = 'My command';
 

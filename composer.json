@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "billerstack/lemon-squeezy-laravel",
+    "description": "Laravel Cashier Inspired Packagef or Lemon Squeezy",
     "keywords": [
-        ":vendor_name",
+        "BillerStack",
         "laravel",
-        ":package_slug"
+        "lemon-squeezy-laravel"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/billerstack/lemon-squeezy-laravel",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "abisheksrikaanth",
+            "email": "opensource@billerstack.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "BillerStack\\LemonSqueezyLaravel\\": "src",
+            "BillerStack\\LemonSqueezyLaravel\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "BillerStack\\LemonSqueezyLaravel\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "BillerStack\\LemonSqueezyLaravel\\LemonSqueezyLaravelServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LemonSqueezyLaravel": "BillerStack\\LemonSqueezyLaravel\\Facades\\LemonSqueezyLaravel"
             }
         }
     },
