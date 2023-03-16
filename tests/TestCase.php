@@ -2,9 +2,9 @@
 
 namespace BillerStack\LemonSqueezyLaravel\Tests;
 
+use BillerStack\LemonSqueezyLaravel\LemonSqueezyLaravelServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use BillerStack\LemonSqueezyLaravel\LemonSqueezyLaravelServiceProvider;
 
 class TestCase extends Orchestra
 {

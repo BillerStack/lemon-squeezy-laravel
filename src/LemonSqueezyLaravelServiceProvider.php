@@ -2,9 +2,9 @@
 
 namespace BillerStack\LemonSqueezyLaravel;
 
+use BillerStack\LemonSqueezyLaravel\Commands\LemonSqueezyLaravelCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use BillerStack\LemonSqueezyLaravel\Commands\LemonSqueezyLaravelCommand;
 
 class LemonSqueezyLaravelServiceProvider extends PackageServiceProvider
 {
